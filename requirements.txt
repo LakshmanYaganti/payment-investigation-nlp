@@ -1,0 +1,14 @@
+scikit-learn>=1.3
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+seaborn>=0.13
+fastapi>=0.110
+uvicorn>=0.29
+httpx>=0.27
+joblib>=1.3
+datasets>=2.18
+pytest>=8.0
+# Advanced model (sentence embeddings). Optional: src/embeddings_model.py
+# falls back to a word+char TF-IDF model when this is unavailable.
+sentence-transformers>=2.6

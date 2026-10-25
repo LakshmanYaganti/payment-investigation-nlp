@@ -1,0 +1,21 @@
+# Data (downloaded locally by src/data.py — never committed)
+data/cache/
+*.csv
+
+# Model artifacts (regenerable via `python -m src.train`)
+models/*.joblib
+models/*.pkl
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+
+# Secrets / env
+.env
+.env.*
+
+# OS
+.DS_Store
